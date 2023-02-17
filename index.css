@@ -1,0 +1,372 @@
+body {
+    background-color: #FFFFFF;
+}
+
+body .btn {
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #01996D;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+body .btn:hover {
+    background-color: #FFFFFF;
+    color: #424242;
+    transition-duration: 200ms;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    body .btn {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    body .btn {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 575px) {
+    body .btn {
+        font-size: 14px;
+    }
+}
+
+body h1 {
+    font-family: "Georgia";
+    font-size: 65px;
+    font-weight: 700;
+    color: #01996D;
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    body h1 {
+        font-size: 54px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    body h1 {
+        font-size: 46px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    body h1 {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 575px) {
+    body h1 {
+        font-size: 36px;
+    }
+}
+
+body h2 {
+    font-family: "Georgia";
+    font-size: 50px;
+    font-weight: 600;
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    body h2 {
+        font-size: 46px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    body h2 {
+        font-size: 38px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    body h2 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 575px) {
+    body h2 {
+        font-size: 24px;
+    }
+}
+
+body h3 {
+    font-family: "Lato";
+    font-size: 25px;
+    font-weight: 600;
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    body h3 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    body h3 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    body h3 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 575px) {
+    body h3 {
+        font-size: 14px;
+    }
+}
+
+body a {
+    font-family: "Lato";
+    font-size: 25px;
+    font-weight: 500;
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    body a {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    body a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    body a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 575px) {
+    body a {
+        font-size: 14px;
+    }
+}
+
+body p {
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media (max-width: 575px) {
+    body p {
+        font-size: 16px;
+    }
+}
+
+body nav {
+    font-family: "Lato";
+    font-size: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    body nav {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    body nav {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 575px) {
+    body nav {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    body nav p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    body nav p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 575px) {
+    body nav p {
+        font-size: 14px;
+    }
+}
+
+body .alivio {
+    height: 80vh;
+}
+
+body .alivio__bg {
+    background: url("../../assets/img/jpg-png/background-img.png") left/cover no-repeat;
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    body .alivio__bg {
+        background-position: 40%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1199px) {
+    body .alivio__bg {
+        background-position: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    body .alivio__bg {
+        background: none;
+    }
+}
+
+body .alivio .btn {
+    padding: 10px 40px;
+}
+
+@media (max-width: 768px) {
+    body .alivio {
+        height: 70vh;
+    }
+}
+
+body .cards h2 {
+    color: #01996D;
+}
+
+body .cards .card {
+    border: none;
+}
+
+body .cards .card__num {
+    font-family: "Georgia";
+    font-size: 150px;
+    line-height: 50px;
+    color: rgba(1, 153, 109, 0.2);
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    body .cards .card__num {
+        font-size: 120px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    body .cards .card__num {
+        font-size: 64px;
+    }
+}
+
+@media (max-width: 767px) {
+    body .cards .card__num {
+        font-size: 120px;
+    }
+}
+
+body .cards .card__title {
+    font-family: "Georgia";
+    font-size: 30px;
+    font-weight: 700;
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    body .cards .card__title {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    body .cards .card__title {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    body .cards .card__title {
+        font-size: 28px;
+    }
+}
+
+body .video {
+    background-color: #245852;
+}
+
+body .video h2 {
+    color: #FFFFFF;
+}
+
+body .video p {
+    color: #FFFFFF;
+}
+
+body .video .btn {
+    padding: 10px 40px;
+}
+
+body .video__bg {
+    width: 97%;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+body .mikayla .card__title {
+    font-family: "Lato";
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+body .mikayla .card hr {
+    margin: 0 0 10px 0;
+    color: #000000;
+    opacity: 1;
+    width: 100px;
+}
+
+body .mikayla .card__li-title {
+    font-family: "Georgia";
+    font-size: 20px;
+}
+
+body .mikayla .card__text {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body .mikayla h2 {
+    color: #01996D;
+}
+
+body .mikayla .btn {
+    padding: 20px 50px;
+}
+
+body footer {
+    background-color: #245852;
+}
+
+body footer h2 {
+    font-family: "Avenir Next Cyr";
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+body footer a {
+    color: #FFFFFF;
+}
